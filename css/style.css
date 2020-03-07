@@ -4,6 +4,13 @@
   color: #333333;
 }
 
+#head {
+  position: fixed;
+  background: white;
+  width: 720px;
+  top: 0;
+}
+
 #link:hover {
   cursor: pointer
 }
@@ -29,13 +36,6 @@
   width: 720px;
 }
 
-#head {
-  position: fixed;
-  background: white;
-  width: 720px;
-  top: 0;
-}
-
 .material-icons.md-light {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
@@ -56,6 +56,12 @@
 
 img {
   width: 24px;
+}
+
+th {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2px;
 }
 
 #parallax {
