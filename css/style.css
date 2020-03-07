@@ -69,3 +69,15 @@ img {
   background-repeat: no-repeat;
   background-size: initial;
 }
+
+#parallax-inside {
+  background-image: url("../img/me2.jpg");
+  border-radius: 5px;
+  padding-top: 25em;
+  max-width: 720px;
+  
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+}
