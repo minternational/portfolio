@@ -4,6 +4,19 @@
   color: #333333;
 }
 
+img {
+  width: 24px;
+}
+
+th {
+  color: #fff;
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+}
+
 #head {
   position: fixed;
   background: white;
@@ -30,47 +43,18 @@
 #jumbotron {
   text-align: justify;
   border-radius: 5px;
+  width: 720px;
 }
 
 #footer {
   width: 720px;
 }
 
-.material-icons.md-light {
-  color: rgba(255, 255, 255, 1);
-  text-decoration: none;
-}
-
-.material-icons.md-24 {
-  font-size: 24px;
-}
-
-.material-icons.md-20 {
-  font-size: 20px;
-}
-
-.material-icons.md-dark {
-  color: rgba(0, 0, 0, 0.54);
-  text-decoration: none;
-}
-
-img {
-  width: 24px;
-}
-
-th {
-  color: #fff;
-}
-
-.col {
-  text-align: center;
-}
-
 #parallax {
   background-image: url("../img/me.jpg");
   border-radius: 5px;
   padding-top: 29em;
-  max-width: 720px;
+  width: 720px;
   
   background-attachment: fixed;
   background-position: center 11em;
@@ -82,7 +66,7 @@ th {
   background-image: url("../img/me2.jpg");
   border-radius: 5px;
   padding-top: 25em;
-  max-width: 720px;
+  width: 720px;
   
   background-attachment: fixed;
   background-position: bottom;
@@ -108,4 +92,22 @@ th {
 @keyframes head {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-20 {
+  font-size: 20px;
+}
+
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
 }

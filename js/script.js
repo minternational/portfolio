@@ -1,3 +1,8 @@
+// function resizeIframe(obj) {
+//   obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+// }
+
+
 // const impressumClick = () => {
 
 //   // const x = document.getElementById("jumbotron");
