@@ -1,4 +1,12 @@
 function impressum() {
-  const change = document.getElementById("context").src = "impressum.html"
-  return change;
+  const y = document.getElementById("context").src = "impressum.html"
+  document.getElementById("context").innerHTML = y;
+}
+
+
+
+
+function justATest() {
+  const time = new Date()
+  document.getElementById("context").innerHTML = time
 }

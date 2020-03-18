@@ -41,6 +41,7 @@ th {
 }
 
 #jumbotron {
+  margin: 0 auto;
   text-align: justify;
   border-radius: 5px;
   width: 720px;
@@ -54,22 +55,10 @@ th {
   background-image: url("../img/me.jpg");
   border-radius: 5px;
   padding-top: 29em;
-  width: 720px;
+  max-width: 720px;
   
   background-attachment: fixed;
-  background-position: center 11em;
-  background-repeat: no-repeat;
-  background-size: initial;
-}
-
-#parallax-inside {
-  background-image: url("../img/me2.jpg");
-  border-radius: 5px;
-  padding-top: 25em;
-  width: 720px;
-  
-  background-attachment: fixed;
-  background-position: bottom;
+  background-position: center 11.5em;
   background-repeat: no-repeat;
   background-size: initial;
 }
